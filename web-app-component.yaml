@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: web-app-component
+  annotations:
+    backstage.io/kubernetes-id: web-app-component
+    github.com/project-slug: utibeabasi6/nginx-website-docker
+spec:
+  lifecycle: production
+  owner: web-team
+  type: service
